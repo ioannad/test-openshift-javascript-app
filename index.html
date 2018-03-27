@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link type="text/css" media="all" href="index.css" rel="stylesheet">
+<body>
+<p> A plot of some mock patient data. </p>
+<p> Red are the patients with complications, green without complications. </p>
+<p> Hover over each circle for some details on this patient.</p>
+
+<script src="https://d3js.org/d3.v5.js"></script>
+<script src="test.js"></script>
+
+<p> Data used for this plot: </p>
+
+<p>
+[ { "patient-id" : 21, "pain-before" : 9, "pain-after" : 3, "complications" : true, "op_date" : "2011-11-11", "comments" : "super annoying patient", "location" : "60.4,7.5"},       <br/>
+  { "patient-id" : 22, "pain-before" : 5, "pain-after" : 3, "complications" : false, "op_date" : "2010-10-10", "comments" : "lovely person", "location" : "50.4,7.9"},               <br/>
+  { "patient-id" : 23, "pain-before" : 8, "pain-after" : 7, "complications" : true, "op_date" : "2009-09-09", "comments" : "annoyed the hell out of me", "location" : "55.4,10.5"},  <br/> 
+  { "patient-id" : 24, "pain-before" : 10, "pain-after" : 1, "complications" : false, "op_date" : "2001-01-01", "comments" : "annoying complaining", "location" : "30.4,10.1"},      <br/>     
+  { "patient-id" : 25, "pain-before" : 8, "pain-after" : 4, "complications" : true, "op_date" : "2010-09-22", "comments" : "nice person", "location" : "20.4,17.5"},                 <br/>     
+  { "patient-id" : 26, "pain-before" : 8, "pain-after" : 1, "complications" : false, "op_date" : "2017-09-21", "comments" : "nice lovely person", "location" : "10.4,2.5"},          <br/>      
+  { "patient-id" : 27, "pain-before" : 10, "pain-after" : 8, "complications" : true, "op_date" : "2015-01-15", "comments" : "annoying patient", "location" : "40.4,4.5"},            <br/>    
+  { "patient-id" : 28, "pain-before" : 4, "pain-after" : 7, "complications" : false, "op_date" : "2014-11-14", "comments" : "bla bla bla annoying", "location" : "54.4,14.5"},       <br/>       
+  { "patient-id" : 29, "pain-before" : 3, "pain-after" : 3, "complications" : true, "op_date" : "2011-10-04", "comments" : "bla bla bla nice", "location" : "56.4,6.5"},             <br/>          
+  { "patient-id" : 210, "pain-before" : 7, "pain-after" : 4, "complications" : false, "op_date" : "2014-10-13", "comments" : "no trouble, nice person", "location" : "60.4,27.5"},   <br/>        
+  { "patient-id" : 211, "pain-before" : 6, "pain-after" : 2, "complications" : false, "op_date" : "2011-01-13", "comments" : "foo bar annoying", "location" : "54.4,7.66"}]            
+</p>
+
+<p> "location" and "patient-id" keys not used.</p>
+
+</body>
+
